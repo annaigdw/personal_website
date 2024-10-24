@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Annaïg De Walsche"
@@ -7,10 +8,19 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
-      - href: bibliographie.qmd
+      - href: cv.qmd
+        text: CV
+      - href: research.qmd
         text: Research
+      - text: Get in touch!
+        menu:
+          - icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/anna%C3%AFg-de-walsche-142450153/
+            target: _blank
+          - icon: envelope
+            text: email
+            href: mailto:annaig.de-walsche@inrae.fr
 
 format:
   html:
